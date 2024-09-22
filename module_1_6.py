@@ -3,10 +3,10 @@ print(my_dict)
 print(my_dict['Dima'])
 my_dict['Daniel'] = 2020
 print(my_dict['Daniel'])
-my_dict.update({'Misha': 1984,
+a=my_dict.update({'Misha': 1984,
                 'Sergey': 1967})
-del my_dict['Sergey']
-print(my_dict.update())
+S=my_dict.pop('Sergey')
+print(S)
 print(my_dict)
 
 my_set = {1,2,3,4,5,1,3,5,'Рука', 'Нога', 'Рука'}
